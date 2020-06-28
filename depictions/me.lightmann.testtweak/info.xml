@@ -1,0 +1,32 @@
+<packageInfo>
+    <bundleId>me.lightmann.testtweak</bundleId>
+    <name>Test Tweak</name>
+    <version>1.0.0</version>
+    <descriptions>
+        <description>
+            Initial description
+        </description>
+        <description>
+            Lengthy bit w/ features, etc
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS>13.0</miniOS>
+        <maxiOS>13.6</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>mobilesubstrate</dependency>
+        <dependency>another dependency</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>v1.0.0</changeVersion>
+            <changeDescription>A change</changeDescription>
+            <changeDescription>Another change</changeDescription>
+        </change>
+        <change>
+            <changeVersion>v0.0.0</changeVersion>
+            <changeDescription>Initial Release</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
