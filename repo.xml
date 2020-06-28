@@ -1,0 +1,14 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>Lightmann</name>
+	                <url>https://reddit.com/u/_lightmann</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+		<link>
+			<name>Lightmann</name>
+			<url>https://github.com/UsrLightmann</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+	</footerlinks>
+</repo>

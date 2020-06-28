@@ -1,12 +1,135 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Lightmann's Repo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="theme-color" content="#000000">
+  <meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="depictions/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="depictions/js/data-loader-engine.js"></script>
+  <style>
+    .jumbotron {
+    	margin-bottom: 0px !important;
+    }
+    .fa {
+    	color: #2b7cb3;
+  	}
+  </style>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123752025-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-123752025-1');
+  </script>
+
+
 </head>
 <body>
-  <h1> Lightmann's Tweak Repository </h1>
-  <a class="cydiaLink" href="cydia://url/https://cydia.saurik.com/api/share#?source=usrlightmann.github.io"> Click here to add Lightmann's Repo to Cydia!
+
+	<div id="packageHeader" class="container">
+		<div class="jumbotron">
+			<h1>Lightmann's Repo</h1>
+			<p class="subtitle"><a class="btn btn-sm btn-default blue" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://usrlightmann.github.io/">+ Add to Cydia</a>&nbsp;&nbsp;&nbsp;usrlightmann.github.io</p>
+		</div>		
+	</div>
+	
+<div class="container">
+
+	<h3 id="wells" class="page-header">Tweaks</h3>
+	<div class="panel panel-default">
+		<div class="panel-heading">Test <span class="blue">(free)</span></div>
+			<div class="panel-body">
+				A description ... <br /><br />
+				<a class="btn btn-xs btn-default" href="depictions/?p=me.lightmann.testtweak">View package</a>
+			</div>
+	</div>
+	
+	<div class="panel panel-default">
+		<div class="panel-heading">StripeCount <span class="blue">(free)</span></div>
+			<div class="panel-body">
+				For Zebra - See the number of installed packages at a glance!<br /><br />
+				<a class="btn btn-xs btn-default" href="depictions/?p=me.lightmann.stripecount">View package</a>
+			</div>
+	</div>
+
+	<script type="text/javascript">
+	   function setAnchorTargets() {
+		 // if on Cydia, set link targets to _blank
+		 if (navigator.userAgent.search(/Cydia/) != -1) {
+		   $("a").each(function() {
+			 $(this).attr("target","_blank");
+		   });
+		 }
+	   }
+
+		var repoContents =  {
+			"#repoFooterLinks" :
+				{"type":"custom"
+					,"source":"repo>footerlinks>link"
+					,"render":function(element,source) {
+						$.each(source, function(index,data) {
+							var a = $("<a class='link-item list-group-item'>");
+							a.attr("href",$(data).find('url').text());
+							if ($(data).find('iconclass')) {
+								var i =  $("<span>")
+								i.attr("class",$(data).find('iconclass').text());
+								console.log(i);
+								$(a).append(i);
+							}
+							$(a).append($(data).find('name').text());
+							$(element).append(a);
+						}); //each
+					} //render
+				}
+		}
+		$( document ).ready(function() {
+			$.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
+				success : function(xml){
+						  data_loader_engine(repoContents,xml);
+				  setAnchorTargets();
+					  },
+				error: function() {
+				  $("#contactInfo").hide();
+				  setAnchorTargets();
+				}
+			}); //ajax
+
+
+		}); // ready
+
+	</script>
+	
+	
+	<h3 id="wells" class="page-header">Links</h3>
+	</div>
+
+	<div id="contactInfo">
+		<div class="container">
+			<ul class="list-group" id="repoFooterLinks">
+			</ul>
+		<br>
+		</div>
+		</div>
+	
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+

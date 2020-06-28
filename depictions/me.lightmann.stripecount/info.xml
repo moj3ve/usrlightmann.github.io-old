@@ -1,0 +1,31 @@
+<package>
+    <id>me.lightmann.stripecount</id>
+    <name>StripeCount</name>
+    <version>1.0.1</version>
+    <compatibility>
+        <firmware>
+            <miniOS>12.0</miniOS>
+            <maxiOS>13.6</maxiOS>
+            <otherVersions>unconfirmed</otherVersions>
+        </firmware>
+    </compatibility>
+    <dependencies>mobilesubstrate</dependencies>
+    <dependencies>Zebra</dependencies>
+    <descriptionlist>
+        <description>Tested on iOS 13 w/ Zebra v1.1.10 (however it should work on earleir versions)</description>
+        <longdescription><![CDATA[
+		· StripeCount lets you see the number of installed packages at a glance (for the Zebra package manager) <br/>
+		· *There are no options to configure, it just works! <br/>
+		· Open source on github (https://github.com/UsrLightmann/StripeCount) <br/>
+        ]]></longdescription>
+    </descriptionlist>
+    <screenshots>
+        <screenshot>
+            <image>stripecount-sample.png</image>
+        </screenshot>
+    </screenshots>
+    <changelog>
+        <change>Fixed label positioning</change>
+    </changelog>
+    <links></links>
+</package>

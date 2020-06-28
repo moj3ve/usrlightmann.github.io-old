@@ -1,32 +1,28 @@
-<packageInfo>
-    <bundleId>me.lightmann.testtweak</bundleId>
+<package>
+   <id>me.lightmann.testtweak</id>
     <name>Test Tweak</name>
     <version>1.0.0</version>
-    <descriptions>
-        <description>
-            Initial description
-        </description>
-        <description>
-            Lengthy bit w/ features, etc
-        </description>
-    </descriptions>
     <compatibility>
-        <miniOS>13.0</miniOS>
-        <maxiOS>13.6</maxiOS>
+        <firmware>
+            <miniOS>13.0</miniOS>
+            <maxiOS>13.6</maxiOS>
+            <otherVersions>unconfirmed</otherVersions>
+        </firmware>
     </compatibility>
-    <dependencies>
-        <dependency>mobilesubstrate</dependency>
-        <dependency>another dependency</dependency>
-    </dependencies>
+    <dependencies>mobilesubstrate</dependencies>
+    <descriptionlist>
+        <description>A test tweak</description>
+        <longdescription><![CDATA[
+            · Some longer more in-depth description  <br/>
+        ]]></longdescription>
+    </descriptionlist>
+    <screenshots>
+        <screenshot>
+            <image>testtweak-sample.png</image>
+        </screenshot>
+    </screenshots>
     <changelog>
-        <change>
-            <changeVersion>v1.0.0</changeVersion>
-            <changeDescription>A change</changeDescription>
-            <changeDescription>Another change</changeDescription>
-        </change>
-        <change>
-            <changeVersion>v0.0.0</changeVersion>
-            <changeDescription>Initial Release</changeDescription>
-        </change>
+        <change>Initial release</change>
     </changelog>
-</packageInfo>
+    <links></links>
+</package>
