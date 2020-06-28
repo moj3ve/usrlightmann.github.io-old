@@ -30,5 +30,5 @@ Homepage: usrlightmann.github.io
 Description: For Zebra - See the number of installed packages at a glance 
 Dependance: mobilesubstrate, xyz.willy.Zebra 
 Depiction: https://urslightmann.github.io/depictions/?p=me.lightmann.stripecount
-Name: Stripe Count
+Name: StripeCount
 

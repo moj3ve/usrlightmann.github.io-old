@@ -14,8 +14,8 @@ a {
 	color: #111;
 }
 
-.purp {
-	color: #664dff !important;
+.blue {
+	color: #2b7cb3 !important;
 }
 
 .bold {
@@ -27,7 +27,7 @@ a {
 }
 
 .jumbotron {
-	background-color: #fff;
+	background-color: #000;
 	padding-bottom: 5px;
 	padding-top: 20px;
 	padding-left: 0px !important;;
