@@ -1,0 +1,15 @@
+Package: me.lightmann.testtweak
+Name: TestTweak
+Description: A test package
+Version: 1.0.0
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Maintainer: Lightmann <lightmanns11@gmail.com>
+Author: Lightmann <lightmanns11@gmail.com>
+Filename: .//debs/me.lightmann.testtweak_1.0.0+debug_iphoneos-arm.deb
+Size: 5
+Installed-Size: 25
+MD5sum: 31301ab1bffd3af1d89979569cca8132
+Depiction: https://usrlightmann.github.io/depictions/?p=me.lightmann.testtweak
+
