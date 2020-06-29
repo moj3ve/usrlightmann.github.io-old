@@ -51,7 +51,8 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 }
 
 .page-header {
-	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	padding-bottom: 0px !important;
 }
 
 .panel-default {
