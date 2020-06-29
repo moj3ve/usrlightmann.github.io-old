@@ -76,11 +76,13 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 }
 
 .jumbotron {
-	position: fixed
+	right: 0;
+	top: 0;
+	position: absolute;
 	height: 246px;
 	width: 100vw;
 	background-color: #303030;
-	margin-bottom: 55px;
+	margin-padding: 55px;
 }
 
 #headerImage{
