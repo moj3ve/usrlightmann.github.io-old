@@ -13,7 +13,7 @@
 		<link>
 			<name>My Email</name>
 			<url>mailto:lightmanns11@gmail.com</url>
-			<iconclass>fa fa-email</iconclass>
+			<iconclass>fa fa-envelope</iconclass>
 		</link>
 	</footerlinks>
 </repo>
