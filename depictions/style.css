@@ -44,6 +44,10 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
     background-color: #000;
 }
 
+.panel {
+    border: 0px solid transparent;
+}
+
 .packageHeader {
 	margin-bottom: 0px !important;
 	padding-bottom: 0px !important;
@@ -61,7 +65,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 .panel-heading {
 	background-color: #000 ! important;
-	! /* border-color: #ddd */;
+	border-bottom: 0px solid transparent;
 }
 
 .panel-body {
