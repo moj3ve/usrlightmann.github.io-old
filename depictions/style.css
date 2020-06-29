@@ -71,7 +71,6 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 .panel-heading {
 	border-color: #c2b8ff !important;
 	background-color: #303030 ! important;
-	text-color:#d6d6d6;
 }
 
 .panel-body{
