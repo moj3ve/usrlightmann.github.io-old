@@ -79,6 +79,11 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 	display: flex;
 }
 
+.packageIcon{
+	width: auto;
+	height: auto;
+}
+
 .jumbotron {
 	margin-bottom: 0px !important;
 	margin-left: 0px !important;
