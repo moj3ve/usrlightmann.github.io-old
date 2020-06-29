@@ -48,8 +48,8 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 .packageHeader {
 	margin-bottom: 0px !important;
 	padding-bottom: 0px !important;
-	margin-left = 0;
-	padding-left = 0;
+	margin-left = 0 !important;
+	padding-left = 0 !important;
 	color: #ffffff;
 }
 
