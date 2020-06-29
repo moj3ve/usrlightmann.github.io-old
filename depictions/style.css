@@ -75,12 +75,12 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 .subtitle {
 	font-size: 16px !important;
-	width:117px;
+	width:102px;
 	height:30px;
 }
 
 .reposhortcut{
-	width: 408px;
+	width: 420px;
 	display: flex;
 }
 
