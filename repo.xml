@@ -1,10 +1,12 @@
 <repo>
 	<footerlinks>
 		<link>
+			<name>My Reddit</name>
 	                <url>https://reddit.com/u/_lightmann</url>
 			<iconclass>fa fa-reddit</iconclass>
 		</link>
 		<link>
+			<name>My GitHub</name>
 			<url>https://github.com/UsrLightmann</url>
 			<iconclass>fa fa-github</iconclass>
 		</link>
