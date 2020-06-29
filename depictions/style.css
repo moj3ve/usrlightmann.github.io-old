@@ -14,12 +14,8 @@
     border: 0px;
 }
 
-a.list-group-item {
-	color: #5ca7e8;
-}
-
-a {
-	border: 0px;
+.fa {
+    font-size: 30px;
 }
 
 .blue {
