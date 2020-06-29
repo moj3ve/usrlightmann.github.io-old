@@ -59,7 +59,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 }
 
 .page-header {
-	margin-bottom: 0px !important;
+	margin-bottom: 20px !important;
 	margin-top: 40px;
 }
 
@@ -75,6 +75,8 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 .subtitle {
 	font-size: 16px !important;
+	margin-left: 42px;
+	margin-top: 35px;
 }
 
 .jumbotron {
