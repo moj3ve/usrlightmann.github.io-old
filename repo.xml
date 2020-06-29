@@ -1,12 +1,9 @@
 <repo>
-	<footerlinks style="font-size:40px">
+	<footerlinks>
 		<link>
-			<name>Catch release and update posts here</name>
 	                <url>https://reddit.com/u/_lightmann</url>
 			<iconclass>fa fa-reddit</iconclass>
-		</link>
-		<link>
-			<name>Check out the source code for my tweaks here</name>
+		
 			<url>https://github.com/UsrLightmann</url>
 			<iconclass>fa fa-github</iconclass>
 		</link>
