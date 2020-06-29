@@ -3,12 +3,12 @@
 		<link>
 			<name>Catch release and update posts here</name>
 	                <url>https://reddit.com/u/_lightmann</url>
-			<iconclass style="font-size:40px;">fa fa-reddit</iconclass>
+			<iconclass>fa fa-reddit</iconclass>
 		</link>
 		<link>
 			<name>Check out the source code for my tweaks here</name>
 			<url>https://github.com/UsrLightmann</url>
-			<iconclass>fa fa-github</iconclass>
+			<iconclass><style="font-size:40px">fa fa-github</style></iconclass>
 		</link>
 	</footerlinks>
 </repo>
