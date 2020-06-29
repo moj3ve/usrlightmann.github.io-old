@@ -10,5 +10,10 @@
 			<url>https://github.com/UsrLightmann</url>
 			<iconclass>fa fa-github</iconclass>
 		</link>
+		<link>
+			<name>My Email</name>
+			<url>mailto:lightmanns11@gmail.com</url>
+			<iconclass>fa fa-email</iconclass>
+		</link>
 	</footerlinks>
 </repo>
