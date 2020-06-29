@@ -26,14 +26,6 @@ a {
 	color: #696969 !important;
 }
 
-.jumbotron {
-	background-color: #303030;
-	padding-bottom: 5px;
-	padding-top: 20px;
-	padding-left: 0px !important;;
-	text-align: left;
-}
-
 .link-item:hover {
     border: 1px solid #ddd;
     background-color: #111;
@@ -80,15 +72,15 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 .subtitle {
 	font-size: 16px !important;
-	font-weight: bold;
 	text-align:center;
 }
 
 .jumbotron {
 	position: fixed
 	height: 246px;
-	width: 100%;
-	margin-bottom: 15px !important;
+	width: 100vw;
+	background-color: #303030;
+	margin-bottom: 55px;
 }
 
 #headerImage{
