@@ -5,16 +5,21 @@
 .link-item {
     list-style-type: none;
     padding: 17px 15px;
-    display: inline;
+    display: inline-block;
     width: 165px;
+    height: 165px;
 }
 
 .list-group-item {
     border: 0px;
 }
 
+a.list-group-item {
+	color: nil;
+}
+
 a {
-	color: #000000;
+	color: #5ca7e8;
 	border: 0px;
 }
 
