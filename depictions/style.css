@@ -81,17 +81,12 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 .subtitle {
 	font-size: 16px !important;
-	color: #ffffff;
 }
 
 .jumbotron {
 	height: 246px;
 	width: 100%;
 	margin-bottom: 0px !important;
-}
-
-.h1{
-	text-align: center;
 }
 
 #headerImage{
