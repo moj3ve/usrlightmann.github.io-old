@@ -106,8 +106,3 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 .alert {
 	margin-top: 15px !important;
 }
-
-#packageName {
-	margin-top: 0px !important;
-	color: #ffffff;
-}
