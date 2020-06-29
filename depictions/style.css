@@ -80,6 +80,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 .subtitle {
 	font-size: 16px !important;
+	font-weight: bold;
 	text-align:center;
 }
 
