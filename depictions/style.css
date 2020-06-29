@@ -27,7 +27,7 @@ a {
 }
 
 .jumbotron {
-	background-color: #000;
+	background-color: #303030;
 	padding-bottom: 5px;
 	padding-top: 20px;
 	padding-left: 0px !important;;
@@ -70,8 +70,13 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 .panel-heading {
 	border-color: #c2b8ff !important;
-	background-color: #000000 ! important;
+	background-color: #303030 ! important;
 }
+
+.panel-body{
+	background-color: #ffffff ! important;
+}
+
 
 .subtitle {
 	font-size: 16px !important;
@@ -104,4 +109,5 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 #packageName {
 	margin-top: 0px !important;
+	color: #ffffff;
 }

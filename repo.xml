@@ -1,12 +1,12 @@
 <repo>
 	<footerlinks>
 		<link>
-			<name>Lightmann</name>
+			<name>See release and update posts here</name>
 	                <url>https://reddit.com/u/_lightmann</url>
 			<iconclass>fa fa-reddit</iconclass>
 		</link>
 		<link>
-			<name>Lightmann</name>
+			<name>Check out the source code for my tweaks here</name>
 			<url>https://github.com/UsrLightmann</url>
 			<iconclass>fa fa-github</iconclass>
 		</link>
