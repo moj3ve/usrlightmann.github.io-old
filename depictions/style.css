@@ -79,6 +79,11 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 	margin-top: 35px;
 }
 
+.reposhortcut{
+	width: 100vw;
+	display: block ruby;
+}
+
 .jumbotron {
 	margin-bottom: 0px !important;
 	margin-left: 0px !important;
