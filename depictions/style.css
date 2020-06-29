@@ -80,8 +80,12 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 }
 
 .packageIcon{
+	position: absolute;
+	margin-left: 615px;
+	top: 60px;
 	width: auto;
 	height: auto;
+	
 }
 
 .jumbotron {
