@@ -28,7 +28,6 @@ a {
 }
 
 .link-item:hover {
-    border: 1px solid #ddd;
     background-color: #111;
 }
 
