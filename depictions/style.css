@@ -6,8 +6,11 @@
     list-style-type: none;
     padding: 17px 15px;
     display: inline;
-    color: #000 !important;
     width: 165px;
+}
+
+.list-group-item {
+    border: 0px;
 }
 
 a {
@@ -53,7 +56,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 .page-header {
 	margin-bottom: 0px !important;
-
+	margin-top: 0px;
 }
 
 .panel-default {
