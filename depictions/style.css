@@ -80,6 +80,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 	position: absolute;
 	height: 246px;
 	width: 100vw;
+	padding-bottom: 5px;
 	background-color: #303030;
 }
 
