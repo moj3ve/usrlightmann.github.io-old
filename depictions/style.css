@@ -55,12 +55,10 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 }
 
 .panel-default {
-	border-color: #c2b8ff !important;
 	box-shadow: 0 0 12px 0px #2b7cb3 !important;
 }
 
 .panel-heading {
-	border-color: #c2b8ff !important;
 	background-color: #303030 ! important;
 }
 
@@ -75,7 +73,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 	display: flex;
 }
 
-.packageIcon{
+.packageIcon{ 
 	position: absolute;
 	margin-left: 615px;
 	top: 60px;
