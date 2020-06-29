@@ -28,6 +28,7 @@ a {
 
 .link-item:hover {
     background-color: #111;
+    border: 0px;
 }
 
 html.can-touch .link-item:hover{ /* disable hover effect when input is touch */
