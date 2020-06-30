@@ -1,6 +1,6 @@
 <package>
-   <id>me.lightmann.testtweak</id>
-    <name>Test Tweak</name>
+   <id>me.lightmann.clearwidgets</id>
+    <name>ClearWidgets</name>
     <version>1.0.0</version>
     <compatibility>
         <firmware>
@@ -18,7 +18,7 @@
     </descriptionlist>
     <screenshots>
         <screenshot>
-            <image>testtweak-sample.png</image>
+            <image>clearwidgets-sample.png</image>
         </screenshot>
     </screenshots>
     <changelog>
