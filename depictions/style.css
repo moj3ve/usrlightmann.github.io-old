@@ -76,6 +76,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 	width: 100vw;
 	background-color: #262626;
 	box-shadow: inset -20px 4px 20px 0px #0000004d, inset 20px 4px 20px 0px #0000004d;
+	display: -webkit-inline-box;
 }
 
 .subtitle {
