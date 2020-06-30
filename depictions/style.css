@@ -89,6 +89,8 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 	position: absolute;
 	width: auto;
 	height: auto;
+	margin-top: 45px;
+	margin-left: 60px;
 }
 
 #headerImage{
