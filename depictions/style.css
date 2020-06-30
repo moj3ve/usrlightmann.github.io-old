@@ -43,6 +43,15 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
     background-color: #000;
 }
 
+.reposhortcut{
+	width: 422px;
+	display: flex;
+}
+
+.panel-default {
+	box-shadow: 0 0 12px 0px #2b7cb3 !important;
+}
+
 .packageHeader {
 	margin-bottom: 0px !important;
 	padding-bottom: 0px !important;
@@ -54,32 +63,9 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 	margin-top: 20px;
 }
 
-.panel-default {
-	box-shadow: 0 0 12px 0px #2b7cb3 !important;
-}
 
 .panel-heading {
 	background-color: #303030 ! important;
-}
-
-.subtitle {
-	font-size: 16px !important;
-	width:102px;
-	height:30px;
-}
-
-.reposhortcut{
-	width: 422px;
-	display: flex;
-}
-
-.packageIcon{ 
-	position: absolute;
-	margin-left: 615px;
-	top: 60px;
-	width: auto;
-	height: auto;
-	
 }
 
 .jumbotron {
@@ -90,6 +76,18 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 	width: 100vw;
 	background-color: #262626;
 	box-shadow: inset -20px 4px 20px 0px #0000004d, inset 20px 4px 20px 0px #0000004d;
+}
+
+.subtitle {
+	font-size: 16px !important;
+	width:102px;
+	height:30px;
+}
+
+.profilePhoto{ 
+	position: absolute;
+	width: auto;
+	height: auto;
 }
 
 #headerImage{
